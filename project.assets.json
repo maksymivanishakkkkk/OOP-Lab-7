@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "SimpleClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SimpleClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleClassLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SimpleClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SimpleClassLibrary/SimpleClassLibrary.csproj",
+      "msbuildProject": "../SimpleClassLibrary/SimpleClassLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "SimpleClassLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ivand\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ivand\\source\\repos\\OOP-Lab 7\\OOP-Lab 7.csproj",
+      "projectName": "OOP-Lab 7",
+      "projectPath": "C:\\Users\\ivand\\source\\repos\\OOP-Lab 7\\OOP-Lab 7.csproj",
+      "packagesPath": "C:\\Users\\ivand\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ivand\\source\\repos\\OOP-Lab 7\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ivand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\ivand\\source\\repos\\SimpleClassLibrary\\SimpleClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\ivand\\source\\repos\\SimpleClassLibrary\\SimpleClassLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
